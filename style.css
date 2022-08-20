@@ -10,5 +10,30 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #252839;
+    background: #98c1d9;
+}
+
+ul{
+    position: relative;
+    /* display flex makes them list horizontal */
+    display: flex;
+
+    /* returns the list to vertical stacking */
+    flex-direction: column;
+    gap: 30px;
+}
+
+ul li{
+    position: relative;
+    list-style: none;
+}
+
+ul li a{
+    position: relative;
+    font-size: 4em;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 2px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255,255,255, 0.5);
 }
